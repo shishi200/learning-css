@@ -1,0 +1,49 @@
+.static {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  position: static;
+  /* can't use top, left, right and bottom properties for static position */
+  top: 20;
+  right: 30;
+}
+
+.relative {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  /* we can use the left, right, top and bottom properties for position relative */
+  top: 0px;
+  left: 20px;
+}
+
+.absolute {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  position: absolute;
+  /* we can use the left, right, top and bottom properties for position relative */
+  top: 0;
+  /* left: 0; */
+}
+
+.fixed {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: fixed;
+  /* we can use the left, right, top and bottom properties for position relative */
+  top: 0;
+  right: 0;
+}
+
+.sticky {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: sticky;
+  /* we can use the left, right, top and bottom properties for position relative */
+  top: 0;
+  /* right: 0; */
+}
